@@ -1,0 +1,1 @@
+{'color': 'Metallic Pink', 'interiorFabric': 'Leather', 'type': 'Compact', 'costs': {'color': 100, 'type': 0, 'interiorFabric': 400}}{'color': 'Metallic Pink', 'interiorFabric': 'Cloth', 'type': 'Compact', 'costs': {'color': 100, 'type': 0, 'interiorFabric': 0}}
