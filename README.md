@@ -9,10 +9,10 @@ This project is a car sales application. A menu-driven application to select any
 ## DESCRIPTION OF VARIABLES AND FUNCTIONS:
 
 ### Variables:
--type [string]: \
-    Description: The type of vehicle. \
-    Options: SUV, Sports, Compact. \
-    Default: "N/A" \
+`-type [string]: 
+    Description: The type of vehicle. 
+    Options: SUV, Sports, Compact. 
+    Default: "N/A" 
 -color [string]: 
     Description: The color of the car. 
     Options: Green, Metallic Pink, 24k Gold
@@ -31,7 +31,7 @@ This project is a car sales application. A menu-driven application to select any
     Description: The additional cost for the interiorFabric var above
     Default: 0
 -basePrice [int]: 
-    Description: The default price of the car. The total price for the car is basePrice+typeCost+colorCost+interiorFabricCost
+    Description: The default price of the car. The total price for the car is basePrice+typeCost+colorCost+interiorFabricCost`
         
 ### Functions:
 -chooseType:
