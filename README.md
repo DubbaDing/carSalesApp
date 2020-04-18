@@ -50,3 +50,8 @@ This project is a car sales application. A menu-driven application to select any
     - *Description*: This function adds the basePrice and additional costs associated with the options selected.
     - *Parameters*: none
     - *Return*: [*int*] Dollar value of the total price of the car with all additional costs added.
+* **saveResults**:
+    - *Description*: This function writes the provided dictonary to a file as a string. It can later be parsed back into a python dictonary
+    - *Parameters*: dictonary as dict
+    - *Return*: void
+    
