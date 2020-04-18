@@ -87,6 +87,12 @@ class Car:
         # calculates and returns the base price plus the add-on costs for the chosen options
         return (int(self.basePrice) + int(self.colorCost) + int(self.interiorFabricCost) + int(self.typeCost))
 
+def saveResults(dict):
+    # This function accepts a dictonary and writes it to a file. This function can later be adapted to save to a database
+    file_append = open("completed.txt", "a")
+    file_append.write(str(dict))
+    file_append.close()
+
 # create a new instance for a car
 currentCar = Car()
 menuChoice = 0 # used to store the user's current choice for the main menu
@@ -151,8 +157,6 @@ carOptions = {
     }
 }
 
-file_append = open("completed.txt", "a")
-file_append.write(str(carOptions))
-file_append.close()
+saveResults(carOptions)
 
 
