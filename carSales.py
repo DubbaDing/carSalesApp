@@ -138,3 +138,21 @@ while True:
 
 # Everything is done. Calc and display the final cost and a description to the user
 print("Your", currentCar.color, currentCar.type, "with", currentCar.interiorFabric,"will set you back $", currentCar.calcPrice())
+
+# Create an array and print to a file for storage (normally would use database)
+carOptions = {
+    "color": currentCar.color,
+    "interiorFabric": currentCar.interiorFabric,
+    "type": currentCar.type,
+    "costs": {
+        "color": currentCar.colorCost,
+        "type": currentCar.typeCost,
+        "interiorFabric": currentCar.interiorFabricCost
+    }
+}
+
+file_append = open("completed.txt", "a")
+file_append.write(str(carOptions))
+file_append.close()
+
+
