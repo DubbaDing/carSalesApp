@@ -46,7 +46,7 @@ This project is a car sales application. A menu-driven application to select any
     - *Description*: Prompts the user for a interior fabric material. The option is validated. The chosen material is stored at interiorFabric and the associated cost is stored as interiorFabricCost.
     - *Parameters*: none
     - *Return*: void
-* calcPrice:
+* **calcPrice**:
     - *Description*: This function adds the basePrice and additional costs associated with the options selected.
     - *Parameters*: none
     - *Return*: [*int*] Dollar value of the total price of the car with all additional costs added.
