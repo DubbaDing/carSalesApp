@@ -17,21 +17,21 @@ This project is a car sales application. A menu-driven application to select any
     - Description: The color of the car. 
     - Options: Green, Metallic Pink, 24k Gold
     - Default: "N/A"
--interiorFabric [string]: 
-    Description: The material the interior is made from. 
-    Options: Cloth, Leather
-    Default: "N/A"
--typeCost [int]: 
-    Description: The additional cost for the type var above
-    Default: 0
--colorCost [int]: 
-    Description: The additional cost for the color var above
-    Default: 0
--interiorFabricCost [int]: 
-    Description: The additional cost for the interiorFabric var above
-    Default: 0
--basePrice [int]: 
-    Description: The default price of the car. The total price for the car is basePrice+typeCost+colorCost+interiorFabricCost
+3. interiorFabric [string]: 
+    - Description: The material the interior is made from. 
+    - Options: Cloth, Leather
+    - Default: "N/A"
+4. typeCost [int]: 
+    - Description: The additional cost for the type var above
+    - Default: 0
+5. colorCost [int]: 
+    - Description: The additional cost for the color var above
+    - Default: 0
+* interiorFabricCost [int]: 
+    - Description: The additional cost for the interiorFabric var above
+    - Default: 0
+* basePrice [int]: 
+    - Description: The default price of the car. The total price for the car is basePrice+typeCost+colorCost+interiorFabricCost
         
 ### Functions:
 -chooseType:
