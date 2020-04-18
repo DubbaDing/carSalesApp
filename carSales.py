@@ -1,4 +1,8 @@
 class Car:
+    # This class controls the Car object.
+    # vars: type, color, interiorFabric, typeCost, colorCost, interiorFabricCost, basePrice
+    # functions: chooseType, chooseColor, chooseInteriorFabric, calcPrice
+
     def __init__(self):
         # set defaults
         self.type = "N/A"
