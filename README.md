@@ -9,22 +9,22 @@ This project is a car sales application. A menu-driven application to select any
 ## DESCRIPTION OF VARIABLES AND FUNCTIONS:
 
 ### Variables:
-1. type [string]: 
+* type [string]: 
     - Description: The type of vehicle. 
     - Options: SUV, Sports, Compact. 
     - Default: "N/A" 
-2. color [string]: 
+* color [string]: 
     - Description: The color of the car. 
     - Options: Green, Metallic Pink, 24k Gold
     - Default: "N/A"
-3. interiorFabric [string]: 
+* interiorFabric [string]: 
     - Description: The material the interior is made from. 
     - Options: Cloth, Leather
     - Default: "N/A"
-4. typeCost [int]: 
+* typeCost [int]: 
     - Description: The additional cost for the type var above
     - Default: 0
-5. colorCost [int]: 
+* colorCost [int]: 
     - Description: The additional cost for the color var above
     - Default: 0
 * interiorFabricCost [int]: 
@@ -34,19 +34,19 @@ This project is a car sales application. A menu-driven application to select any
     - Description: The default price of the car. The total price for the car is basePrice+typeCost+colorCost+interiorFabricCost
         
 ### Functions:
--chooseType:
-    Description: Prompts the user for a type option. The option is validated. The chosen type is stored at type and the associated cost is stored as typeCost.
-    Parameters: none
-    Return: void
--chooseColor:
-    Description: Prompts the user for a color option. The option is validated. The chosen color is stored at color and the associated cost is stored as colorCost.
-    Parameters: none
-    Return: void
--chooseInteriorFabric:
-    Description: Prompts the user for a interior fabric material. The option is validated. The chosen material is stored at interiorFabric and the associated cost is stored as interiorFabricCost.
-    Parameters: none
-    Return: void
--calcPrice:
-    Description: This function adds the basePrice and additional costs associated with the options selected.
-    PArameters: none
-    Return: [int] Dollar value of the total price of the car with all additional costs added.
+* chooseType:
+    - Description: Prompts the user for a type option. The option is validated. The chosen type is stored at type and the associated cost is stored as typeCost.
+    - Parameters: none
+    - Return: void
+* chooseColor:
+    - Description: Prompts the user for a color option. The option is validated. The chosen color is stored at color and the associated cost is stored as colorCost.
+    - Parameters: none
+    - Return: void
+* chooseInteriorFabric:
+    - Description: Prompts the user for a interior fabric material. The option is validated. The chosen material is stored at interiorFabric and the associated cost is stored as interiorFabricCost.
+    - Parameters: none
+    - Return: void
+* calcPrice:
+    - Description: This function adds the basePrice and additional costs associated with the options selected.
+    - Parameters: none
+    - Return: [int] Dollar value of the total price of the car with all additional costs added.
