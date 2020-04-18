@@ -1,12 +1,17 @@
+#Car Sales Application
 
+## Assignment:
 This application is the final project for CIS 120
 
+## Description:
 This project is a car sales application. A menu-driven application to select any amount of options (at least 2 sets of options, e.g. vehicle type and engine type, each option must be priced differently) and calculate the total price of the vehicle.
 
-Written in Python
+### Languate
+Python
 
-DESCRIPTION OF VARIABLES AND FUNCTIONS:
-    Variables:
+## DESCRIPTION OF VARIABLES AND FUNCTIONS:
+
+    ### Variables:
         -type [string]: 
             Description: The type of vehicle. 
             Options: SUV, Sports, Compact. 
@@ -31,7 +36,7 @@ DESCRIPTION OF VARIABLES AND FUNCTIONS:
         -basePrice [int]: 
             Description: The default price of the car. The total price for the car is basePrice+typeCost+colorCost+interiorFabricCost
         
-    Functions:
+    ### Functions:
         -chooseType:
             Description: Prompts the user for a type option. The option is validated. The chosen type is stored at type and the associated cost is stored as typeCost.
             Parameters: none
